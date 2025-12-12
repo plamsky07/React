@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  font-family: system-ui, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.App {
+  width: 100%;
+  text-align: center;
+  padding-top: 40px;
+  color: white;
+}
+
+.App h1 {
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.card {
+  width: 70%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  border-radius: 30px;
+  background: linear-gradient(135deg, #5a65e8, #8f4fcf);
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.4);
+  color: #fff;
+
+  /* ТОВА центрира съдържанието вертикално */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.name {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.children-text {
+  background: rgba(255, 255, 255, 0.3);
+  padding: 12px 24px;
+  border-radius: 12px;
+  font-size: 16px;
+}
+
+.avatar {
+  width: 140px;
+  height: 140px;
+  padding: 25px;
+  background: black;
+  border-radius: 50%;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.title {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
